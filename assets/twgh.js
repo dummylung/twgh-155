@@ -10,14 +10,16 @@ $(window).ready(function() {
     autoScrolling: false,
     fitToSection: false,
     menu: '#menu',
+    verticalCentered: true,
     anchors: [
+      'logoPage', 
       'homePage', 
       'schedulePage', 
-      'whatPage', 
-      'applicationPage', 
       'donationPage', 
-      'igPage',
-      'sponsorsPage'
+      'applicationPage', 
+      'igPage', 
+      'sponsorsPage',
+      'contactPage'
     ],
     onLeave: function(index, nextIndex, direction) {
       var leavingSection = $(this);
