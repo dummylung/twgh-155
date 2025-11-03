@@ -95,7 +95,7 @@ $(window).on('load', function() {
     }).on("show.bs.popover", function(e){
       // hide all other popovers
       $("[data-toggle=popover]").not(e.target).popover("hide");
-    });;
+    });
     
   });
 

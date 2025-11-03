@@ -4693,11 +4693,12 @@ html:lang(en) .title {
     padding-right: 8px;
   }
 }
+
 @media screen and (max-width: 599px) {
   .svgIcon { width: 80px; height: 80px; }
   .title { font-size: 24px; }
   html:lang(en) .title { font-size: 16px; }
-  .subtitle { font-size: 18px; text-align: justify; text-align-last: center; }
+  .subtitle { font-size: 18px; text-align: justify; text-align-last: left; }
   .description { font-size: 12px; }
   .headlineMiddle h2 { font-size: 48px; line-height: 54px; }
   html:lang(zh-Hans) .headlineMiddle h2 { font-size: 36px; line-height: 40px; }
@@ -4877,8 +4878,16 @@ ul {
   left: 20%;
   top: 40%;
 }
+.static-decor-balloon-3 {
+  left: -5%;
+  top: 40%;
+}
 .static-decor-balloon-2 {
   left: 70%;
+  top: 45%;
+}
+.static-decor-balloon-4 {
+  left: 95%;
   top: 45%;
 }
 
@@ -4887,18 +4896,28 @@ ul {
     left: 10%;
     top: 30%;
   }
+  .static-decor-balloon-3 {
+    left: -5%;
+    top: 30%;
+  }
   .static-decor-balloon-2 {
     left: 75%;
+    top: 45%;
+  }
+  .static-decor-balloon-4 {
+    left: 95%;
     top: 45%;
   }
 }
 
 @media screen and (max-width: 989px) {
-  .static-decor-balloon-1 {
+  .static-decor-balloon-1,
+  .static-decor-balloon-3 {
     left: -5%;
     top: 30%;
   }
-  .static-decor-balloon-2 {
+  .static-decor-balloon-2,
+  .static-decor-balloon-4 {
     left: 90%;
     top: 40%;
   }
@@ -4909,14 +4928,24 @@ ul {
     left: -5%;
     top: 15%;
   }
-  .static-decor-balloon-1 img {
+  .static-decor-balloon-3 {
+    left: -10%;
+    top: 15%;
+  }
+  .static-decor-balloon-1 img,
+  .static-decor-balloon-3 img {
     width: 100px !important;
   }
   .static-decor-balloon-2 {
     left: 90%;
     top: 40%;
   }
-  .static-decor-balloon-2 img {
+  .static-decor-balloon-4 {
+    left: 95%;
+    top: 40%;
+  }
+  .static-decor-balloon-2 img,
+  .static-decor-balloon-4 img {
     width: 120px !important;
   }
 }
@@ -4927,14 +4956,24 @@ ul {
     left: -5%;
     top: 10%;
   }
-  .static-decor-balloon-1 img {
+  .static-decor-balloon-3 {
+    left: -8%;
+    top: 10%;
+  }
+  .static-decor-balloon-1 img,
+  .static-decor-balloon-3 img {
     width: 60px !important;
   }
   .static-decor-balloon-2 {
     left: 90%;
     top: 40%;
   }
-  .static-decor-balloon-2 img {
+  .static-decor-balloon-4 {
+    left: 95%;
+    top: 40%;
+  }
+  .static-decor-balloon-2 img,
+  .static-decor-balloon-4 img {
     width: 80px !important;
   }
 }
@@ -5035,6 +5074,7 @@ ul {
 .popover__item th, 
 .popover__item td {
     padding: 8px 4px;
+    min-width: 50px;
     /* border-bottom: 1px solid #eee; */
     text-align: left;
     vertical-align: top; /* Align content to the top */
