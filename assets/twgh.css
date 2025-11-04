@@ -148,9 +148,6 @@ a[href^="tel"] {
 .wrapper {
   margin: 0 240px;
 }
-.homeSection .wrapper {
-  margin: 0px 0px;
-}
 .float-right {
   float: right;
 }
@@ -357,12 +354,12 @@ a {
   opacity: 1;
 }
 .menuMobilePopup .menuMobilePopupContainer .menuMobilePopupMiddle .menuMobilePopupWindow ul {
-  margin: 0;
+  margin: auto;
   padding: 0;
   list-style: none;
 }
 .menuMobilePopup .menuMobilePopupContainer .menuMobilePopupMiddle .menuMobilePopupWindow ul li {
-  margin: 0;
+  margin: auto;
   padding: 0;
   list-style: none;
   text-align: center;
@@ -655,13 +652,13 @@ a {
 .fp-viewing-websitesPage .websitesSection .content .number svg .numberPlus {
   stroke-dashoffset: 0;
 }
-.fp-viewing-sponsorsPage .buttonSponsors a {
+.fp-viewing-arrangementPage .buttonSponsors a {
   color: #003E7E !important;
 }
-.fp-viewing-sponsorsPage .buttonSponsors a .circle {
+.fp-viewing-arrangementPage .buttonSponsors a .circle {
   border: solid 2px #003E7E !important;
 }
-.fp-viewing-sponsorsPage .buttonSponsors a .line {
+.fp-viewing-arrangementPage .buttonSponsors a .line {
   opacity: 1 !important;
   width: 30px !important;
 }
@@ -694,66 +691,66 @@ a {
 .fp-viewing-whoPage .whatSection .team .column .columnContainer svg path {
   stroke-dashoffset: 0;
 }
-.fp-viewing-donationPage .buttonDonation a {
+.fp-viewing-registrationPage .buttonDonation a {
   color: #003E7E !important;
 }
-.fp-viewing-donationPage .buttonDonation a .circle {
+.fp-viewing-registrationPage .buttonDonation a .circle {
   border: solid 2px #003E7E !important;
 }
-.fp-viewing-donationPage .buttonDonation a .line {
+.fp-viewing-registrationPage .buttonDonation a .line {
   opacity: 1 !important;
   width: 30px !important;
 }
-.fp-viewing-applicationPage .buttonApplication a {
+.fp-viewing-activitiesPage .buttonApplication a {
   color: #003E7E !important;
 }
-.fp-viewing-applicationPage .buttonApplication a .circle {
+.fp-viewing-activitiesPage .buttonApplication a .circle {
   border: solid 2px #003E7E !important;
 }
-.fp-viewing-applicationPage .buttonApplication a .line {
+.fp-viewing-activitiesPage .buttonApplication a .line {
   opacity: 1 !important;
   width: 30px !important;
 }
-.fp-viewing-donationPage .donationSection .columns .column .title svg .letter1 {
+.fp-viewing-registrationPage .donationSection .columns .column .title svg .letter1 {
   stroke-dashoffset: 0;
 }
-.fp-viewing-donationPage .donationSection .columns .column .title svg .letter2 {
+.fp-viewing-registrationPage .donationSection .columns .column .title svg .letter2 {
   stroke-dashoffset: 0;
 }
-.fp-viewing-donationPage .donationSection .columns .column .title svg .letter3 {
+.fp-viewing-registrationPage .donationSection .columns .column .title svg .letter3 {
   stroke-dashoffset: 0;
 }
-.fp-viewing-donationPage .donationSection .columns .column .title svg .letter4 {
+.fp-viewing-registrationPage .donationSection .columns .column .title svg .letter4 {
   stroke-dashoffset: 0;
 }
-.fp-viewing-donationPage .donationSection .columns .column .title svg .letter5 {
+.fp-viewing-registrationPage .donationSection .columns .column .title svg .letter5 {
   stroke-dashoffset: 0;
 }
-.fp-viewing-donationPage .donationSection .columns .column .title svg .letter6 {
+.fp-viewing-registrationPage .donationSection .columns .column .title svg .letter6 {
   stroke-dashoffset: 0;
 }
-.fp-viewing-donationPage .donationSection .columns .column .title svg .letter7 {
+.fp-viewing-registrationPage .donationSection .columns .column .title svg .letter7 {
   stroke-dashoffset: 0;
 }
-.fp-viewing-donationPage .donationSection .columns .column .title svg .letter8 {
+.fp-viewing-registrationPage .donationSection .columns .column .title svg .letter8 {
   stroke-dashoffset: 0;
 }
-.fp-viewing-donationPage .donationSection .columns .column .title svg .letter9 {
+.fp-viewing-registrationPage .donationSection .columns .column .title svg .letter9 {
   stroke-dashoffset: 0;
 }
-.fp-viewing-donationPage .donationSection .columns .column .title svg .letter10 {
+.fp-viewing-registrationPage .donationSection .columns .column .title svg .letter10 {
   stroke-dashoffset: 0;
 }
-.fp-viewing-donationPage .donationSection .columns .column .title svg .letter11 {
+.fp-viewing-registrationPage .donationSection .columns .column .title svg .letter11 {
   stroke-dashoffset: 0;
 }
-.fp-viewing-donationPage .donationSection .columns .column .title svg .letter12 {
+.fp-viewing-registrationPage .donationSection .columns .column .title svg .letter12 {
   stroke-dashoffset: 0;
 }
-.fp-viewing-donationPage .sidebar .scrollUp {
+.fp-viewing-registrationPage .sidebar .scrollUp {
   display: block;
 }
-.fp-viewing-donationPage .sidebar .scrollDown {
+.fp-viewing-registrationPage .sidebar .scrollDown {
   display: none;
 }
 .homeSection {
@@ -978,6 +975,10 @@ a {
   }
 }
 
+html:lang(en) .headlineMiddle h2 {
+  font-size: 40px;
+  line-height: normal;
+}
 .headlineMiddle h2 {
   color: #003E7E;
   font-family: 'Seto', sans-serif;
@@ -1008,6 +1009,9 @@ a {
   border-style: dashed;
   /* overflow: hidden; */
 }
+html:lang(en) .headlineMiddle h3 {
+  font-size: 26px;
+}
 .headlineLeft h3 {
   width: auto;
   display: inline-block;
@@ -1035,6 +1039,10 @@ a {
 }
 html:lang(zh-Hans) .headlineMiddle h2 {
   font-size: 54px;
+}
+html:lang(en) .headlineMiddle h2 {
+  font-size: 40px;
+  line-height: normal;
 }
 /* .homeSection .svgMask {
   stroke-dasharray: 635, 635;
@@ -2452,9 +2460,6 @@ html:lang(zh-Hans) .headlineMiddle h2 {
   .wrapper {
     margin: 0 120px;
   }
-  .homeSection .wrapper {
-    margin: 0 0px;
-  }
   .homeSection {
     padding: 0px 0 60px 0;
   }
@@ -2666,9 +2671,6 @@ html:lang(zh-Hans) .headlineMiddle h2 {
   }
   .wrapper {
     margin: 0 120px;
-  }
-  .homeSection .wrapper {
-    margin: 0 0px;
   }
   .homeSection {
     padding: 0px 0 40px 0;
@@ -3332,9 +3334,7 @@ html:lang(zh-Hans) .headlineMiddle h2 {
   .wrapper {
     margin: 0 40px;
   }
-  .homeSection .wrapper {
-    margin: 0px 0px 0 0px;
-  }
+  
   .homeSection .whatTable {
     height: 540px;
   }
@@ -4296,10 +4296,10 @@ html:lang(en) .title {
   transition: 1.5s;
   transition-delay: 0.3s;
 }
-.fp-viewing-donationPage .leftSvg svg .lineBig {
+.fp-viewing-registrationPage .leftSvg svg .lineBig {
   stroke-dashoffset: 0;
 }
-.fp-viewing-donationPage .leftSvg svg .lineMedium {
+.fp-viewing-registrationPage .leftSvg svg .lineMedium {
   stroke-dashoffset: 0;
 }
 
@@ -4471,12 +4471,16 @@ html:lang(en) .title {
   -webkit-transform: translate(-13%, 0);
   transform: translate(-13%, 0);
 }
-.scheduleSection .subtitle,
-.whatSection .subtitle,
-.homeSection .subtitle,
-.homeSection .title {
-  max-width: 740px;
+.subtitle,
+.title,
+.description {
+  max-width: 800px;
   margin: auto;
+  /* padding-left: 20px; padding-right: 20px; */
+}
+.left-align {
+  text-align: justify;
+  text-align-last: left;
 }
 .whatSection .team {
   max-width: 900px;
@@ -4630,7 +4634,7 @@ html:lang(en) .title {
   .igIcon { max-width: 24px; max-height: 24px; }
   .donationSection .static-pattern-1 { left: -250px; top: -200px }
   .donationSection .static-pattern-2 { right: -150px; }
-  .donationSection .button { font-size: 16px; width: 160px; }
+  .donationSection .button { font-size: 16px; width: 200px; }
   .igSection .static-pattern-4 { right: -250px }
   .igSection .static-pattern-6 { left: -200px }
   .homeSection .static-pattern-3 { right: -250px; top: 100px }
@@ -4646,6 +4650,8 @@ html:lang(en) .title {
   .description { font-size: 12px; }
   .headlineMiddle h2 { font-size: 60px; line-height: 64px; }
   html:lang(zh-Hans) .headlineMiddle h2 { font-size: 42px; line-height: 48px; }
+  html:lang(en) .headlineMiddle h2 { font-size: 32px; line-height: normal; }
+  html:lang(en) .headlineMiddle h3 { font-size: 24px; line-height: normal; }
   /* .content { font-size: 14px; } */
   .static-pattern { transform: scale(0.6); }
   #fullpage .logo { padding: 10px 20px; position: relative; background: #f7f0ce; }
@@ -4698,10 +4704,12 @@ html:lang(en) .title {
   .svgIcon { width: 80px; height: 80px; }
   .title { font-size: 24px; }
   html:lang(en) .title { font-size: 16px; }
-  .subtitle { font-size: 18px; text-align: justify; text-align-last: left; }
+  .subtitle { font-size: 18px; }
   .description { font-size: 12px; }
   .headlineMiddle h2 { font-size: 48px; line-height: 54px; }
   html:lang(zh-Hans) .headlineMiddle h2 { font-size: 36px; line-height: 40px; }
+  html:lang(en) .headlineMiddle h2 { font-size: 28px; line-height: normal; }
+  html:lang(en) .headlineMiddle h3 { font-size: 22px; line-height: normal; }
   /* .content { font-size: 13px; } */
   .static-pattern { transform: scale(0.4); }
   #fullpage .logo { padding: 10px 10px; }
@@ -4717,9 +4725,9 @@ html:lang(en) .title {
   .homeSection .icons .iconRow {
     padding-left: 0px !important;
   }
-  .donationSection .button a {
+  /* .donationSection .button a {
     width: 160px !important;
-  }
+  } */
   .popover .popover__item .icon img {
     display: none;
   }
@@ -4767,6 +4775,7 @@ html:lang(en) .title {
 ul {
   list-style-type: decimal;
   text-align: left;
+  padding-left: 10px;
 }
 
 /* div {
@@ -5061,7 +5070,7 @@ ul {
 
     
         
-.popover__item table {
+.popover-content table {
     width: 100%;
     /* max-width: 500px; */
     margin: auto;
@@ -5071,21 +5080,21 @@ ul {
     /* border-radius: 8px; */
     overflow: hidden;
 }
-.popover__item th, 
-.popover__item td {
+.popover-content th, 
+.popover-content td {
     padding: 8px 4px;
-    min-width: 50px;
+    min-width: 50px !important;
     /* border-bottom: 1px solid #eee; */
     text-align: left;
     vertical-align: top; /* Align content to the top */
 }
-.popover__item th {
+.popover-content th {
     /* width: 80px; */
     /* background: #f1f1f1; */
     font-weight: normal;
     /* color: #666; */
 }
-.popover__item tr:last-child td {
+.popover-content tr:last-child td {
     border-bottom: none;
 }
 /* @media (max-width: 600px) {

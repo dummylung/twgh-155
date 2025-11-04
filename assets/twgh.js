@@ -15,10 +15,10 @@ $(window).ready(function() {
       'logoPage', 
       'homePage', 
       'schedulePage', 
-      'donationPage', 
-      'applicationPage', 
+      'registrationPage', 
+      'activitiesPage', 
       'igPage', 
-      'sponsorsPage',
+      'arrangementPage',
       'contactPage'
     ],
     onLeave: function(index, nextIndex, direction) {
