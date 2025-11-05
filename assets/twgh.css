@@ -1037,9 +1037,6 @@ html:lang(en) .headlineMiddle h3 {
 .sponsorsSection .headlineMiddle:nth-of-type(4n) h3 {
   color: #009ac9 !important;
 }
-html:lang(zh-Hans) .headlineMiddle h2 {
-  font-size: 54px;
-}
 html:lang(en) .headlineMiddle h2 {
   font-size: 40px;
   line-height: normal;
@@ -1396,8 +1393,11 @@ html:lang(en) .headlineMiddle h2 {
   font-weight: 700;
 }
 .sponsorsSection h3 {
-  margin-top: 60px;
+  /* margin-top: 60px; */
   margin-bottom: 20px;
+}
+.sponsorsSection .description {
+  margin-bottom: 60px;
 }
 .donationSection .items,
 .sponsorsSection .items {
@@ -3386,7 +3386,7 @@ html:lang(en) .headlineMiddle h2 {
 }
 @media screen and (max-width: 989px) {
   .wrapper {
-    margin: 0 30px;
+    margin: 0 20px;
   }
   .twgh {
     /* padding: 0 0 0 160px !important; */
@@ -4649,7 +4649,6 @@ html:lang(en) .title {
   .subtitle { font-size: 16px; }
   .description { font-size: 12px; }
   .headlineMiddle h2 { font-size: 60px; line-height: 64px; }
-  html:lang(zh-Hans) .headlineMiddle h2 { font-size: 42px; line-height: 48px; }
   html:lang(en) .headlineMiddle h2 { font-size: 32px; line-height: normal; }
   html:lang(en) .headlineMiddle h3 { font-size: 24px; line-height: normal; }
   /* .content { font-size: 14px; } */
@@ -4707,7 +4706,6 @@ html:lang(en) .title {
   .subtitle { font-size: 18px; }
   .description { font-size: 12px; }
   .headlineMiddle h2 { font-size: 48px; line-height: 54px; }
-  html:lang(zh-Hans) .headlineMiddle h2 { font-size: 36px; line-height: 40px; }
   html:lang(en) .headlineMiddle h2 { font-size: 28px; line-height: normal; }
   html:lang(en) .headlineMiddle h3 { font-size: 22px; line-height: normal; }
   /* .content { font-size: 13px; } */
@@ -4719,6 +4717,7 @@ html:lang(en) .title {
   .title { font-size: 22px; }
   .subtitle { font-size: 13px; }
   .description { font-size: 11px; }
+  .headlineMiddle h2 { font-size: 32px; line-height: 40px; }
   .homeSection .icons {
     padding-left: 20px !important;
   }
@@ -4766,7 +4765,7 @@ html:lang(en) .title {
   text-align: center;
   max-width: 64rem;
   margin: auto;
-  padding: 30px;
+  padding: 20px;
 }
 .statement {
   padding-top: 60px;
