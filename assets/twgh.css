@@ -4692,10 +4692,13 @@ html:lang(en) .title {
     -webkit-transform: scale(1.1,1.1) translate(5%, -5%) ;
     transform: scale(1.1,1.1) translate(5%, -5%) ;
   }
+  #macy-container {
+    display: block;
+  }
   .macy-item {
     flex: 0 0 calc(100% - 16px);
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
@@ -4706,6 +4709,7 @@ html:lang(en) .title {
   .subtitle { font-size: 18px; }
   .description { font-size: 12px; }
   .headlineMiddle h2 { font-size: 48px; line-height: 54px; }
+  .headlineMiddle h3 { font-size: 24px; line-height: normal; }
   html:lang(en) .headlineMiddle h2 { font-size: 28px; line-height: normal; }
   html:lang(en) .headlineMiddle h3 { font-size: 22px; line-height: normal; }
   /* .content { font-size: 13px; } */
